@@ -1,5 +1,7 @@
 package edu.mytrdairy.zlotin_k.mytrdairy.Managers;
 
+import java.util.ArrayList;
+
 import edu.mytrdairy.zlotin_k.mytrdairy.Objects.Exercise;
 
 public class ExerciseManager {
@@ -10,5 +12,14 @@ public class ExerciseManager {
     }
 
     private ExerciseManager() {
+    }
+
+
+    public void CreateExercise(String name){
+
+    }
+
+    public ArrayList<String> GetExerciseList(){
+        return new ArrayList<String>();
     }
 }
